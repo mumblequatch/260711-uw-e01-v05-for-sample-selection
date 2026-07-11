@@ -276,6 +276,12 @@ body.screenplay hr.section-break {
         margin-right: 0;
         text-align: left;
     }
+    /* Action gutters on phones = body's 1.5rem side padding; pull back
+       half of it so action reads at half the margin of everything else. */
+    .action {
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
